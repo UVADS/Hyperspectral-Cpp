@@ -17,7 +17,7 @@ The spectral.cpp file contains the spectral computations.  The main.cpp file rea
   <li>Compute ACE target detection images (option: view or save as jpg)</li>
 </ul>
 
-This code is intended to be funtional for target detection, but also useful as commented code for building further hyperspectral projects in C++.
+<b>This code is intended to be funtional for target detection, but also useful as commented core code for building further hyperspectral projects in C++, especially for bulk processing applications.</b>
 
 # Running 
 
