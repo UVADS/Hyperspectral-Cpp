@@ -17,9 +17,11 @@ The spectral.cpp file contains the spectral computations.  The main.cpp file rea
   <li>Compute ACE target detection images (option: view or save as jpg)</li>
 </ul>
 
+This code is intended to be funtional for target detection, but also useful as commented code for building further hyperspectral projects in C++.
+
 # Running 
 
-A sample hyperspectral image <code>AVIRIS</code> is provided with a spectral library of polymers <code>lib_detect_fullresolution.sli</code> are provided.  If you put all files in a single directory you can run the code by <code>main.exe</code> or if you want to use a different image execute with <code> main image_filename</code> (which will look for a header with the same name as the image with .hdr appended) or <code>main image_filename image_header_filename</code>.  The code will look for a spectral library with the file name <code>lib_detect_fullresolution.sli</code> and header <code>lib_detect_fullresolution.hdr</code> in the same directory as the image.  It will create an output folder with a log file and out jpgs in the same directory as the image.
+The code assumes you provide a hyperspectral image file named <code>AVIRIS</code>.  A spectral library <code>lib_detect_fullresolution.sli</code> of polymer spectra is provided.  If you put all files in a single directory you can run the code by <code>main.exe</code> or if you want to use a different image execute with <code> main image_filename</code> (which will look for a header with the same name as the image with .hdr appended) or <code>main image_filename image_header_filename</code>.  The code will look for a spectral library with the file name <code>lib_detect_fullresolution.sli</code> and header <code>lib_detect_fullresolution.hdr</code> in the same directory as the image.  It will create an output folder with a log file and out jpgs in the same directory as the image.
 
 
 # Dependencies:
